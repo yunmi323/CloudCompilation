@@ -16,7 +16,7 @@ on:
     branches:
       - master
     paths:
-      - '.config'
+      - 'newifid2.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -25,12 +25,12 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: .config
+  CONFIG_FILE: newifid2.config
   DIY_SH: diy.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
-  UPLOAD_COWTRANSFER: false
+  UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: false
   TZ: Asia/Shanghai
 
