@@ -10,6 +10,7 @@ name: Build LEDE For Newifi mini / Lenovo Y1
 
 on:
   repository_dispatch:
+  workflow_dispatch:
   release:
     types: published
   push:
