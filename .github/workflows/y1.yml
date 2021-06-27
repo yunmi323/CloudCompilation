@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build LEDE For Newifi mini / Lenovo Y1
 
 on:
   repository_dispatch:
