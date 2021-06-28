@@ -15,6 +15,10 @@ Build OpenWrt using GitHub Actions
 - Push `.config` file to the GitHub repository, and the build starts automatically.Progress can be viewed on the Actions page.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
+## Attention
+
+- Newifi mini / Lenovo Y1 < 15.6MB
+
 ## Acknowledgments
 
 - [Microsoft](https://www.microsoft.com)
