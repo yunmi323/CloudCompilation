@@ -17,3 +17,7 @@ sed -i '$a src-git destan19 https://github.com/destan19/OpenAppFilter' feeds.con
 #sed -i '$a src-git yunmi323 https://github.com/yunmi323/luci-theme-argon' feeds.conf.default
 rm -rf package/lean/luci-theme-argon
 git clone https://github.com/yunmi323/luci-theme-argon.git package/lean/luci-theme-argon
+
+#京东签到插件及其node-request依赖
+#git clone https://github.com/jerrykuku/node-request  package/node-request 
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
